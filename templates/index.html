@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+    <h2>{{ data.title }}的页面</h2>
+    <form action="/bank" method="post">
+        <input name="title" placeholder="title">
+        <button>submit</button>
+    </form>
+    <message>{{ error_message }}</message>
+</body>
+</html>
